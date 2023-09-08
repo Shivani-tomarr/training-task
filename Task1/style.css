@@ -1,0 +1,42 @@
+ 
+.postcard{
+    width: 457px;
+    height: 138px;
+    display: flex;
+    align-items: center;
+    margin:4px;
+}
+.body{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+
+}
+    
+    .img{
+        
+        width:130px;
+        height:130px;
+        margin: 4px;
+        background-size: cover;
+    }
+    .icons{
+       color:#858991;
+       margin-bottom:4px ;
+    }
+    .text{
+        font-family: 'Roboto', sans-serif;
+    }
+    .number{
+        padding-right:24px;
+    }
+  
+    .info{
+        margin-left: 14px;
+    }
+    .fa-solid{
+        padding-right:5px;
+    } 
+    
