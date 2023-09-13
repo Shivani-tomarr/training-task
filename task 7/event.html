@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event handling</title>
+</head>
+<body>
+    <button id="Button">Color</button>
+    <p id="changecolor">Click the button to change background color.</p>
+
+    <script>
+        const buttonElement = document.getElementById('Button');
+        Button.addEventListener('click', handleButtonClick);
+
+        function handleButtonClick() {
+            const bgcolor  = document.getElementById('changecolor');
+            bgcolor.textContent = 'Color changed successfully.';
+            document.body.style.backgroundColor = '#CC9DB3';
+        }
+
+       
+       
+    </script>
+</body>
+</html>
